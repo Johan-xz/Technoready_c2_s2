@@ -1,0 +1,62 @@
+[
+  {
+    "id": 101,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "age": 34,
+    "location": {
+      "city": "New York",
+      "country": "USA"
+    },
+    "preferences": ["email", "sms"],
+    "active": true
+  },
+  {
+    "id": 102,
+    "name": "Bob Martinez",
+    "email": "bob.martinez@example.com",
+    "age": 28,
+    "location": {
+      "city": "Los Angeles",
+      "country": "USA"
+    },
+    "preferences": ["push"],
+    "active": false
+  },
+  {
+    "id": 103,
+    "name": "Carla Singh",
+    "email": "carla.singh@example.com",
+    "age": 41,
+    "location": {
+      "city": "Toronto",
+      "country": "Canada"
+    },
+    "preferences": ["email", "push", "sms"],
+    "active": true
+  },
+  {
+    "id": 104,
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "age": 36,
+    "location": {
+      "city": "Seoul",
+      "country": "South Korea"
+    },
+    "preferences": [],
+    "active": true
+  },
+  {
+    "id": 105,
+    "name": "Eva Müller",
+    "email": "eva.muller@example.com",
+    "age": 30,
+    "location": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "preferences": ["email"],
+    "active": false
+  }
+]
