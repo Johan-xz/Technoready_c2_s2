@@ -7,9 +7,10 @@ import java.util.Set;
 
 public class writecsvf {
     /**
+     * using the library opencsv with the method CSVWriter
      * This class manage the convert of Json content to through the CSV writer
      * @param outputPath this is provided to us by the user in the Command prompt on the Main.
-     * @param jsonArray this is provided to us by the ReadJsonf.java.
+     * @param jsonArray this is provided to us by the ReadJsonf.java that obtains it by the parser ParseJson class.
      * @throws Exception this delegates the errors to Main.
      */
     public static void writeCsv(String outputPath, JSONArray jsonArray) throws Exception{
