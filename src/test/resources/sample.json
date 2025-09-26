@@ -9,7 +9,8 @@
       "country": "USA"
     },
     "preferences": ["email", "sms"],
-    "active": true
+    "active": true,
+    "languages": "spanish"
   },
   {
     "id": 102,
@@ -21,7 +22,8 @@
       "country": "USA"
     },
     "preferences": ["push"],
-    "active": false
+    "active": false,
+    "languages": "spanish"
   },
   {
     "id": 103,
@@ -33,7 +35,8 @@
       "country": "Canada"
     },
     "preferences": ["email", "push", "sms"],
-    "active": true
+    "active": true,
+    "languages": "spanish"
   },
   {
     "id": 104,
@@ -45,7 +48,8 @@
       "country": "South Korea"
     },
     "preferences": [],
-    "active": true
+    "active": true,
+    "languages": "spanish"
   },
   {
     "id": 105,
@@ -57,6 +61,7 @@
       "country": "Germany"
     },
     "preferences": ["email"],
-    "active": false
+    "active": false,
+    "languages": "spanish"
   }
 ]

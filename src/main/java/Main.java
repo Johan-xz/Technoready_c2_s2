@@ -1,33 +1,22 @@
-
+import javax.swing.UIManager;
 
 public class Main {
     public static void main(String[] args) {
-        /** using this if we prevent unvalid paths, and files not founds exception
-         * @param inputPath json file path
-         * @param outputPath path to write csv file
-         * @throws first if is to communicate the correct use of the cmd run
-         * second if is to communicate that the input file is not a json file.
-         * @throws an error if is a different file that the json type.
-         * call JsontoCSVConverter.java and its method convert
-         * @param inputPath
-         * @param outputPath
-         * @exception gives a message of exception to the user
+        /**
+         * In this project use the method of UIManager to initialize the graphical user interface(GUI) with the system's
+         * native  look and feel using the library swing with the @link javax.swing.UIManager with the method
+         * setLookAndFeel.
+         *
+         * the method and the library can change in future updates to use paths and a better GUI
+         * @author: Johan Gloria
+         * @version 1.0.1
          */
-        if (args.length < 2 ){
-            System.err.println("Usage: java Main <input.json> <output.csv>");
-            return;
-        }
-        String inputPath=args[0];
-        String outputPath=args[1];
-        if (!inputPath.toLowerCase().endsWith(".json")) {
-            System.err.println("Error: the input file must be a file with end .json");
-            return;
-        }
         try {
-            JsontoCsvConverter.convert(inputPath,outputPath);
-            System.out.println("transformacion completa");
-        } catch (Exception e){
-            System.err.println("Error en la transformacion:" + e.getMessage());
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+        JsontoCsvUI.launch();
+
     }
 }
