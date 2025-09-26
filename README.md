@@ -36,8 +36,4 @@ of Swing but is not quite enough to keep me satisfied, so I'm going to look on o
 18. - Uses OpenCSV to handle escaping, quoting, and formatting.
 19. Input file existence and format are validated before parsing.
 20. JSON parsing errors are caught and reported via JOptionPane.
-21. Output file path is validated to ensure write permissions
-
-
-
-
+21. Output file path is validated to ensure write permissions.
